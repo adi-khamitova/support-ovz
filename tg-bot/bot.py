@@ -1,5 +1,3 @@
-# TOKEN = "7482452539:AAGpAW8VXjO9CGpYU57Xyv8xUcsfcKGx9SI"
-
 import requests
 from telegram import Update
 from telegram.ext import (
@@ -18,7 +16,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-TOKEN = '7664821568:AAEPZT_CyuJSUMDXDCeQd2l-OHScg6IXHks'
+TOKEN = 'your_token'
 SERVER_URL = 'http://localhost:5001/answer'
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
